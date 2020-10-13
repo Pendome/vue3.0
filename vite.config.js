@@ -33,17 +33,14 @@ module.exports = {
     }
   },
   alias: {
-    alias: {
-      vue$: 'vue/dist/vue.esm.js',
-      '@': path.resolve(__dirname, 'src'),
-      '@s': path.resolve(__dirname, 'src/components'),
-      '@utils': path.resolve(__dirname, 'src/utils'),
-      '@views': path.resolve(__dirname, 'src/views'),
-      '@assets': path.resolve(__dirname, 'src/assets'),
-      '@img': path.resolve(__dirname, 'src/assets/img'),
-      '@Validate': path.resolve(__dirname, 'src/assets/js/validate'),
-      '@store': path.resolve(__dirname, 'src/store'),
-      '@api': path.resolve(__dirname, 'src/services/api')
-    }
+    '@': path.resolve(__dirname, 'src'),
+    '@s': path.resolve(__dirname, 'src/components'),
+    '@utils': path.resolve(__dirname, 'src/utils'),
+    '@views': path.resolve(__dirname, 'src/views'),
+    '@assets': path.resolve(__dirname, 'src/assets'),
+    '@img': path.resolve(__dirname, 'src/assets/img'),
+    '@Validate': path.resolve(__dirname, 'src/assets/js/validate'),
+    '@store': path.resolve(__dirname, 'src/store'),
+    '@api': path.resolve(__dirname, 'src/services/api')
   },
 }
